@@ -1,8 +1,6 @@
 SELECT * from walmart;
 
 SELECT COUNT(DISTINCT branch) from walmart;
-
-SEL
 -- Business Problems
 --Q.1 Find different payment method and number of transactions, number of qty sold
 
@@ -155,4 +153,5 @@ revenue_2023 as cy
 ON ly.branch = cy.branch
 WHERE ly.total_revenue > cy.total_revenue
 ORDER BY ratio DESC
+
 LIMIT 5
