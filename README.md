@@ -8,7 +8,7 @@ It replicates a real-world ETL + analytics workflow used by data teams in retail
 ---
 ### 🛠 Tech Stack
 
-- **Python**: Pandas, NumPy
+- **Python**: Pandas
 - **Databases**: PostgreSQL, MySQL
 - **Libraries**: SQLAlchemy, psycopg2, mysql-connector-python
 - **Tools**: VS Code, Jupyter Notebook, Kaggle API
